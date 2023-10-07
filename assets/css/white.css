@@ -1,0 +1,22 @@
+:root {
+    /* Colors */
+    --black-color: #070807 !important;
+    --black-color-alt: #0d240a !important;
+    --text-color: #424242;
+    --white-color: #FFF !important;
+    --body-color: #fff !important;
+    --container-color: #070807 !important;
+    --text-gradient: linear-gradient(#303440, #082507) !important;
+}
+
+.specs__icon, .active-link, .nav__toggle i, .nav__close i {
+    color: var(--container-color) !important;
+}
+
+.nav__link:hover {
+    color: var(--container-color) !important;
+}
+
+.scrollup i:hover, .footer__link:hover {
+    color: var(--black-color-alt) !important;
+}
